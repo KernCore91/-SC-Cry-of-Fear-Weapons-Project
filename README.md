@@ -2,7 +2,7 @@
 ![](http://i.imgur.com/h0OZsxY.png)
 >Custom weapons project for Sven Co-op.
 
-This project is brought to you by D.N.I.O. 071 and me (KernCore).
+This project is brought to you by D.N.I.O. 071 and me (KernCore).  
 It's a port of Cry of Fear's arsenal.
 
 ## The Weapons
@@ -115,8 +115,8 @@ USE KEY + RELOAD KEY (+use;+reload) -> Use alternative mode (Only works on Glock
 ## Credits
 
 Cry of Fear is made by Team Psykskallar, check it out [here!](http://store.steampowered.com/app/223710/)  
-You are authorized to use any assets from this pack as long as you give credit to the creators.
-If you're wondering if we have permission to port them, you can check it out [here](https://i.imgur.com/0oqlaro.png).
+You are authorized to use any assets from this pack as long as you give credit to the creators.  
+If you're wondering if we have permission to port them, you can check it out [here](https://i.imgur.com/0oqlaro.png).  
 As of now, anyone who wants to port Cry of Fear weapons are permitted AS LONG AS:
 * you give propper credits
 * you don't earn any money from them.
