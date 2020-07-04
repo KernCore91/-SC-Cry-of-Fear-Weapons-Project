@@ -114,7 +114,7 @@ USE KEY + RELOAD KEY (+use;+reload) -> Use alternative mode (Only works on Glock
 
 ## Credits
 
-Cry of Fear is made by Team Psykskallar, check it out [here!](http://store.steampowered.com/app/223710/)
+Cry of Fear is made by Team Psykskallar, check it out [here!](http://store.steampowered.com/app/223710/)  
 You are authorized to use any assets from this pack as long as you give credit to the creators.
 If you're wondering if we have permission to port them, you can check it out [here](https://i.imgur.com/0oqlaro.png).
 As of now, anyone who wants to port Cry of Fear weapons are permitted AS LONG AS:
