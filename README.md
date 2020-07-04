@@ -62,9 +62,8 @@ Video:
 [![](https://i.imgur.com/GecS1Iym.png)](https://i.imgur.com/GecS1Iy.png)
 [![](https://i.imgur.com/0rlBt4fm.png)](https://i.imgur.com/0rlBt4f.png)
 [![](https://i.imgur.com/wuOnw2tm.png)](https://i.imgur.com/wuOnw2t.png)
-[![](https://i.imgur.com/84E0GqLm.png)](https://i.imgur.com/84E0GqL.png)
-[![](https://i.imgur.com/yszXhUnm.png)](https://i.imgur.com/yszXhUn.png)
-[![](https://i.imgur.com/gYkANMzm.png)](https://i.imgur.com/gYkANMz.png)
+[![](https://i.imgur.com/c83A8LXm.jpg)](https://i.imgur.com/c83A8LX.jpg)
+[![](https://i.imgur.com/FwH3OJFm.jpg)](https://i.imgur.com/FwH3OJF.jpg)
 
 ## Installation Guide
 
