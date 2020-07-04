@@ -113,7 +113,7 @@ Due to some engine/balance limitations we were forced to change somethings:
 * Includes a debug map made by Cadaver (*`cryoffinal.bsp`*).
 
 
-CONTROLS:
+CONTROLS:  
 PRIMARY ATTACK KEY (+attack) -> Fire  
 SECONDARY ATTACK KEY (+attack2) -> Aim  
 TERTIARY ATTACK KEY (+alt1) -> Melee  
