@@ -57,3 +57,27 @@ Video:
 Video:
 [![](https://i.ytimg.com/vi/XtYBRp-wkjg/maxresdefault.jpg)](https://www.youtube.com/watch?v=XtYBRp-wkjg)
 *by AlphaLeader772.*
+
+## Installation Guide
+
+1. Registering the weapons as plugins (Good for server operators, and most people):
+	1. Download the pack from one of the download links below
+	2. Extract it's contents inside Steam\steamapps\common\Sven Co-op\svencoop_addon\
+	3. Open up default_plugins.txt located in Steam\steamapps\common\Sven Co-op\svencoop\
+	4. Add these lines to the file:
+	```
+	"plugin"
+	{
+		"name"		"Cry of Fear"
+		"script"	"../maps/cof/cofregister"
+	}
+	```
+	5. Load any map of your preference;
+2. Registering the weapons as map_scripts (Good for map makers):
+	1. Download the pack from one of the download links below
+	2. Extract it's contents inside Steam\steamapps\common\Sven Co-op\svencoop_addon\
+	3. Open up any map .cfg (i.e: svencoop1.cfg) and add this line to it:
+	```
+	map_script cof/cofregister
+	```
+	4. Load up the map you chose;
