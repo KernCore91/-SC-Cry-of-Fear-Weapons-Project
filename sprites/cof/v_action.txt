@@ -1,0 +1,2 @@
+1
+crosshair		640 crosshairs	0	0	1	1

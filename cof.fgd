@@ -1,0 +1,197 @@
+// Cry of Fear Weapons FGD
+
+// For use with KernCore's CoF guns
+
+// ------------------------------------- Base values -------------------------------------
+
+@BaseClass = Mandatory
+[
+	ondestroyfn(string) : "OnDestroy Function"
+]
+
+@BaseClass base(Mandatory) = Targetname
+[
+	targetname(target_source) : "Name"
+]
+
+@BaseClass = Appearflags
+[
+	spawnflags(Flags) =
+	[
+		2048 : "Not in Deathmatch" : 0
+	]
+]
+
+@BaseClass = Angles
+[
+	angles(string) : "Pitch Yaw Roll (X Y Z)" : "0 0 0"
+]
+
+@BaseClass = CustomRespawnDelay
+[
+	m_flCustomRespawnTime(string) : "Custom respawn time"
+]
+
+@BaseClass = Target
+[
+	target(target_destination) : "Target"
+]
+
+@BaseClass size(0 0 0, 32 32 32) color(80 0 200) base(Targetname, Appearflags, Angles) = Pickup
+[
+	spawnflags(Flags) =
+	[
+		128 : "TOUCH Only" : 0
+		256 : "USE Only" : 0
+		512 : "Can Use w/o LoS" : 0
+		1024: "Disable Respawn" : 0
+	]
+	renderfx(choices) : "Render FX" : 0 =
+	[
+		0: "Normal"
+		1: "Slow Pulse"
+		2: "Fast Pulse"
+		3: "Slow Wide Pulse"
+		4: "Fast Wide Pulse"
+		9: "Slow Strobe"
+		10: "Fast Strobe"
+		11: "Faster Strobe"
+		12: "Slow Flicker"
+		13: "Fast Flicker"
+		5: "Slow Fade Away"
+		6: "Fast Fade Away"
+		7: "Slow Become Solid"
+		8: "Fast Become Solid"
+		14: "Constant Glow"
+		15: "Distort"
+		16: "Hologram (Distort + fade)"
+	]
+	rendermode(choices) : "Render Mode" : 0 =
+	[
+		0: "Normal"
+		1: "Color"
+		2: "Texture"
+		3: "Glow"
+		4: "Solid"
+		5: "Additive"
+	]
+	renderamt(integer) : "FX Amount (1 - 255)"
+	rendercolor(color255) : "FX Color (R G B)" : "0 0 0"
+	movetype(choices) : "Gravity Setting" : 0 =
+	[
+		0: "Fall to the ground (default)"
+		5: "Hover in the air"
+	]
+]
+
+@BaseClass size(-8 -8 0, 8 8 16) color(4 128 240) base(Pickup, CustomRespawnDelay) = Ammo
+[
+	model(studio) : "Custom Model" : ""
+]
+
+@BaseClass size(-16 -16 0, 16 16 32) color(2 64 240) base(Pickup, CustomRespawnDelay) = Weapon
+[
+	dmg(integer) : "Custom Damage" : 0
+
+	wpn_v_model(studio) : "Custom V_Model" : ""
+	wpn_w_model(studio) : "Custom W_Model" : ""
+	wpn_p_model(studio) : "Custom P_Model" : ""
+
+	soundlist(string) : "Sound Replacement File"
+
+	CustomSpriteDir(string) : "Custom sprite directory"
+
+	IsNotAmmoItem(choices) : "Is Ammo Item" : 0 =
+	[
+		0 : "Yes"
+		1 : "No"
+	]
+]
+
+@BaseClass base(Target) = Targetx
+[
+	delay(string) : "Delay Before Trigger" : "0"
+	killtarget(target_destination) : "Kill Target"
+]
+
+@BaseClass = ExclusiveHold
+[
+	exclusivehold(choices) : "Exclusive Hold" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+]
+
+// ------------------------------------- CoF Weapons (35) -------------------------------------
+
+// Melee (8)
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/axe/wld.mdl") = weapon_cofaxe : "Fireaxe" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/branch/wld.mdl") = weapon_cofbranch : "Branch" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/hammer/wld.mdl") = weapon_cofhammer : "Hammer" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/knife/wld.mdl") = weapon_cofknife : "Kitchen Knife" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/nstick/wld.mdl") = weapon_cofnightstick : "Nightstick" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/sledge/wld.mdl") = weapon_cofsledgehammer : "Sledgehammer" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/spear/wld.mdl") = weapon_cofspear : "Spear" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/sblade/wld.mdl") = weapon_cofswitchblade : "Switchblade" []
+
+// Pistols (9)
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/anaconda/wrd.mdl") = weapon_cofanaconda : "Colt Anaconda .454 Casull" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/beretta/wrd.mdl") =  weapon_cofberetta : "Beretta M9" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/deagle/wld.mdl") =  weapon_cofdeagle : "Desert Eagle" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/glock/wrd.mdl") = weapon_cofglock : "Glock 19 9mm" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/glock18/wrd.mdl") = weapon_cofglock18 : "Glock 18 9mm" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/p228/wrd.mdl") = weapon_cofp228 : "SIG Sauer P228" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/p345/wrd.mdl") = weapon_cofp345 : "Ruger P345" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/revolver/wrd.mdl") = weapon_cofrevolver : "Taurus .357 Magnum" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/vp70/wrd.mdl") = weapon_cofvp70 : "VP70" []
+
+// Rifles (6)
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/ak74/wrd.mdl") = weapon_cofak74 : "AK-74" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/famas/wrd.mdl") = weapon_coffamas : "Famas" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/g43/wrd.mdl") = weapon_cofg43 : "Gewehr 43" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/l85/wrd.mdl") = weapon_cofl85 : "SA80 L85A2 Assault Rifle" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/m16/wrd.mdl") = weapon_cofm16 : "M16 Assault Rifle" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/rifle/wrd.mdl") = weapon_cofrifle : "Hunting Rifle" []
+
+// Shotguns (2)
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/benelli/wrd.mdl") = weapon_cofbenelli : "Benelli M3 Super" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/shotgun/wrd.mdl") = weapon_cofshotgun : "Remington 870" []
+
+// Submachine Guns (5)
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/m76/wrd.mdl") = weapon_cofm76 : "Smith & Wesson M76" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/mp5/wrd.mdl") = weapon_cofmp5 : "Heckler & Koch MP5" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/mp5k/wrd.mdl") = weapon_cofmp5k : "Heckler & Koch MP5K" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/tmp/wrd.mdl") = weapon_coftmp : "Steyr TMP" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/uzi/wrd.mdl") = weapon_cofuzi : "IMI UZI" []
+
+// Special (5)
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/book/wld.mdl") = weapon_cofbooklaser : "Simons Book" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/camera/wld.mdl") = weapon_cofcamera : "Digital Camera" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/anaconda/wrd_g.mdl") = weapon_cofgolden : "Golden Colt Anaconda" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/lantern/wld.mdl") = weapon_coflantern : "Lantern" []
+@PointClass base(Weapon, Targetx, ExclusiveHold) studio("models/cof/syringe/wld.mdl") = weapon_cofsyringe : "Morphine Syringe" []
+
+// ------------------------------------- Ammunitions (21) -------------------------------------
+
+@PointClass base(Ammo, Targetx) studio("models/cof/anaconda/mag.mdl") = ammo_454casul : ".454 Casull Anaconda Speedloader" []
+@PointClass base(Ammo, Targetx) studio("models/cof/beretta/mag.mdl") = ammo_9mm_beretta : "Standard M9 Beretta Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/deagle/mag.mdl") = ammo_50ae : ".50 AE Desert Eagle Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/glock/mag.mdl") = ammo_9mm_glock : "Standard Glock-19 Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/glock18/mag.mdl") = ammo_9mm_glock18 : "Standard Glock-18 Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/p345/mag.mdl") = ammo_45acp : ".45 ACP for P345" []
+@PointClass base(Ammo, Targetx) studio("models/cof/revolver/box.mdl") = ammo_38special : ".38 Special Rounds" []
+@PointClass base(Ammo, Targetx) studio("models/cof/vp70/mag.mdl") = ammo_9mm_vp70 : "Standard VP70 Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/ak74/mag.mdl") = ammo_545mm : "5.45x39mm AK-74 Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/famas/mag.mdl") = ammo_556_famas : "Standard Famas Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/g43/mag.mdl") = ammo_792mauser : "Standard Gewehr Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/l85/mag.mdl") = ammo_556_l85 : "Standard L85A2 Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/m16/mag.mdl") = ammo_556_m16 : "Standard M16 Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/rifle/box.mdl") = ammo_303british : "Standard British Rounds" []
+@PointClass base(Ammo, Targetx) studio("models/cof/shotgun/box.mdl") = ammo_12gauge : "Twelve Gauge Rounds" []
+@PointClass base(Ammo, Targetx) studio("models/cof/m76/mag.mdl") = ammo_9mm_m76 : "Standard S&W M76 Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/mp5/mag.mdl") = ammo_9mm_mp5 : "Standard MP5 Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/tmp/mag.mdl") = ammo_9mm_tmp : "Standard TMP Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/mp5k/mag.mdl") = ammo_9mm_mp5k : "Standard MP5K Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/uzi/mag.mdl") = ammo_9mm_uzi : "Standard UZI Magazine" []
+@PointClass base(Ammo, Targetx) studio("models/cof/p228/mag.mdl") = ammo_9mm_p228 : "Standard P228 Magazine" []

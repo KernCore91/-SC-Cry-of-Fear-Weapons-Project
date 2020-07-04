@@ -1,0 +1,121 @@
+		+-------------------------------------------+
+		|   	Cry of Fear Weapons credits   		|
+		+-------------------------------------------+
+_____________________________________________
+
+					**WEAPONS**
+___________________________________________________
+
+Axe
+
+Model: ruMpel
+
+Textures: ruMpel
+
+Animations: Sporkeh
+___________________________________________________
+
+Booklaser
+
+Model and Animations: ruMpel
+
+Textures: Minuit
+___________________________________________________
+
+Branch
+
+Model and Textures: Sporkeh
+
+Animations: Sporkeh
+___________________________________________________
+
+Flashlight, Knife, Flare, Syringe, Lantern, Camera
+
+Everything: Sporkeh
+___________________________________________________
+
+FAMAS
+
+Model and Animations: Sporkeh
+
+Textures: Millenia
+___________________________________________________
+
+Enfield
+
+Model: Sporkeh/RedRogueXIII
+
+Textures: Millenia
+
+Animations: Sporkeh
+___________________________________________________
+
+Shotgun, P345
+
+Model and Animations: Sporkeh
+
+Textures: Acidsnake
+___________________________________________________
+
+Glock
+
+Model: Sureshot
+
+Textures and Animations: Sporkeh
+___________________________________________________
+
+Revolver, VP70
+
+Model and Animations: Sporkeh
+
+Textures: Cyper
+___________________________________________________
+
+TMP
+
+Model and Textures: TMP
+
+Animations: Sporkeh
+___________________________________________________
+
+Nightstick
+
+Model and Textures: Minuit
+
+Animations: Sporkeh
+___________________________________________________
+
+Gewehr 43
+
+Model: Sporkeh/Sproily 
+
+Textures: Millenia
+
+Animations: Kopter
+___________________________________________________
+
+MP5
+
+Model and Textures: Unknown (May be a good idea to use a diffrent model anyways, try this model instead: http://gamebanana.com/skins/17365)
+
+Animations: Kopter
+___________________________________________________
+
+M16
+
+Model: Sureshot
+
+Textures: Acidsnake
+
+Animations: Sporkeh
+___________________________________________________
+
+
+					**HANDS**
+___________________________________________________
+
+Hands
+
+Model and Textures: Sporkeh
+
+___________________________________________________

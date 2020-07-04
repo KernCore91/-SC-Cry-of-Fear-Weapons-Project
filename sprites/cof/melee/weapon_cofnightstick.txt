@@ -1,0 +1,4 @@
+3
+crosshair		640 crosshairs	0	0	1	1
+weapon			640 cof/wpn_sel01	170	45	170	45
+weapon_s		640 cof/wpn_sel01	170	90	170	45

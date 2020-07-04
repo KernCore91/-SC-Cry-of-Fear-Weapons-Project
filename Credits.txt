@@ -1,0 +1,372 @@
+Disclaimer: These models are to be used on the Cry of Fear weapon scripts for Sven Co-op 5.X by KernCore.
+Compatibility with Cry of Fear is not guaranteed, nor has it been planned for it.
+___________________________________________________
+
+*MODELS*
+___________________________________________________
+
+***************************************************
+//Switchblade
+
+http://gamebanana.com/skins/141700
+http://gamebanana.com/skins/75922
+
+·Model, textures: Teh Snake
+
+·Counter-Strike 1.6 compile: simple rulez
+***************************************************
+//Nightstick
+
+http://gamebanana.com/skins/50600
+
+·Model and Texture: Millenia
+
+·Animations: Sporkeh
+***************************************************
+//Branch
+
+·Model and Textures: Norman The Loli Pirate
+
+·Animations: Sporkeh
+***************************************************
+//Axe
+
+·Model: Nottingham
+
+·Textures: Norman The Loli Pirate
+
+·Animations: Sporkeh
+***************************************************
+//Glock
+
+http://gamebanana.com/models/3764
+
+·Model: Sureshot
+
+·Textures and Animations: Sporkeh
+
+·Laser sight model and textures: Tigg
+***************************************************
+//Revolver
+
+·Model and Animations: Sporkeh
+
+·Textures: Cyper
+***************************************************
+//P345
+
+·Model and Animations: Sporkeh
+
+·Textures: Acidsnake
+
+·Sounds by Team Psykskallar, edited by KernCore
+***************************************************
+//VP70
+
+·Model and Animations: Sporkeh
+
+·Textures: Cyper
+***************************************************
+//TMP
+
+·Model and Textures: TMP
+
+·Animations: Sporkeh
+***************************************************
+//MP5
+
+http://gamebanana.com/skins/17365
+(From its credits file)
+
+·Model: Twinke Masta
+
+·Textures: geno
+
+·Compile, normals: Pajama_Man
+***************************************************
+//Shotgun
+
+·Model and Animations: Sporkeh
+
+·Textures: Acidsnake
+***************************************************
+//G43
+
+·Model: Sporkeh/Sproily
+
+·Textures: Millenia
+
+·Animations: Kopter
+***************************************************
+//AK-74
+
+(Animation and sound resource)
+http://gamebanana.com/skins/128497
+
+·Model: Twinke Masta/Norman the Loli Pirate
+
+·Textures: Millenia
+
+·Animations: CafeRev/D.N.I.O. 071
+***************************************************
+//M16
+
+·Model: Sureshot
+
+·Textures: Acidsnake
+
+·Animations: Sporkeh
+
+·Empty reload animation adjustments: Norman the Loli Pirate
+***************************************************
+//Rifle
+
+·Model: Sporkeh/RedRogueXIII
+
+·Textures: Millenia
+
+·Animations: Sporkeh
+***************************************************
+//Famas
+
+http://gamebanana.com/skins/25428
+
+·Model: Sporkeh
+
+·Textures: Millenia
+***************************************************
+//Camera
+
+·Model/Textures/Animations: Sporkeh
+***************************************************
+//Ammo boxes
+
+Original models by Valve and Gearbox
+
+·Der Graue Fuchs
+New box model and textures for default 357 and Shotgun
+***************************************************
+//Desert Eagle
+
+http://gamebanana.com/skins/45547
+http://gamebanana.com/skins/44299
+
+·Model: vashts1985, Norman The Loli Pirate (Viewmodel edits & low poly world model)
+·Textures: Thanez, Norman The Loli Pirate (Edits), D.N.I.O. 071 (Edits)
+·Animations: Mr. Brightside/D.N.I.O. 071
+·Sounds: Valve, Firearms Source team, spy, D.N.I.O. 071, KernCore
+***************************************************
+//Glock 18
+
+https://gamebanana.com/skins/42194
+
+·Model, UV: sHiBaN
+·Texture: fub
+·Animations: Michael65/D.N.I.O. 071
+·Sounds: Crowbar Collective, Valve, Firearms Source team, D.N.I.O. 071, KernCore
+
+Player, world and magazine models by KernCore
+***************************************************
+//Anaconda Revolver
+
+https://gamebanana.com/skins/15867
+https://gamebanana.com/skins//13027
+
+·Model: Duffman
+·Texture: Kimono, Chimp
+·Animations: Mr. Brightside/D.N.I.O. 071
+·Sounds: New World Interactive, Crowbar Collective, D.N.I.O. 071, KernCore
+
+Gold revolver texture edits by KernCore
+***************************************************
+//Beretta
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=617147239
+
+http://www.half-lifecreations.com/forums/index.php?topic=2185.0
+(Thanks to SureShot for sharing this)
+
+·Model: Schmung
+·Textures: Stoke
+·Source compile by SureShot
+·Animations: MzK/D.N.I.O. 071
+·Sounds: New World Interactive, Project Reality Team, Navaro, KernCore, R4to0
+
+Player, world and magazine models by KernCore
+***************************************************
+//L85 (gm general)
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=717059270
+
+http://www.half-lifecreations.com/forums/index.php?topic=2196.0
+
+·Model, textures: Milo
+·Original Sven compile by Cliffton_Vlodhamer
+·Animations: Mr. Brightside/D.N.I.O. 071
+·Sounds: New World Interactive, Project Reality Team, spy, Navaro, D.N.I.O. 071, KernCore
+
+SUSAT Scope insides by Norman The Loli Pirate
+Player and world models by KernCore
+***************************************************
+//Hammer
+
+https://gamebanana.com/skins/134984
+
+·Model, UV, texture: Yogensia
+·Animations: D.N.I.O. 071
+·Sounds: Monochrome Inc (ZPS Team), No More Room in Hell Team, D.N.I.O. 071, KernCore
+***************************************************
+//Knife
+
+https://gamebanana.com/skins/17541
+https://gamebanana.com/skins/18981
+
+·Model, UV: Kitteh
+·Texture: Rochenback
+·Animations: Michael65
+·Sounds: New World Interactive, D.N.I.O. 071
+***************************************************
+//Benelli M3
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=635546249
+(Workshop article by Spycer42 and MzK)
+
+https://gamebanana.com/skins/33842
+
+·Model: Schmung
+·Texture: Stoke
+·Animations: MzK/D.N.I.O. 071
+·Sounds: Team Psykskallar, New World Interactive, Navaro, KernCore
+***************************************************
+//Smith & Wesson M76
+
+Original model shipped with Cry of Fear
+·Model/Textures: Sporkeh
+·Animations: Mr. Brightside/D.N.I.O. 071
+·Sounds: New World Interactive, Resistance & Liberation, Navaro, KernCore, D.N.I.O. 071
+***************************************************
+//MP5k
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=546754227
+
+https://gamebanana.com/skins/153281
+
+·Model: Twinke Masta
+·Textures: Thanez
+·Animations: MzK/D.N.I.O. 071
+·Sounds: New World Interactive, Firearms Source team, Navaro, KernCore
+***************************************************
+// IMI Uzi
+
+http://gamer-lab.com/eng/mdl_goldsrc/IMI_UZI_Remix
+
+·Model: Duffman
+·Textures: Crosis
+·Animations: Michael65/D.N.I.O. 071
+·Sounds: Firearms Source team, KernCore, D.N.I.O. 071
+***************************************************
+//P228
+
+https://gamebanana.com/skins/142665
+
+·Main sig model: Schmung
+·Grip and magazine: Stoke
+·Textures: Stoke
+·Animations: Michael65/D.N.I.O. 071
+·Sounds: Firearms Source team, Project Reality Team, Valve, KernCore, D.N.I.O. 071
+***************************************************
+//Spear
+
+Shipped with Afraid of Monsters Director's Cut
+
+·Base model: G.H.O.S.T. Ops Dev team
+·Texture: Ghost ops Dev team
+·Original debugging: Hav0c Animation
+·Original convertion and compile: Hav0c
+·Animations: D.N.I.O. 071
+·Sounds: Tripwire Interactive, D.N.I.O. 071
+***************************************************
+___________________________________________________
+
+*SPRITES*
+___________________________________________________
+
+// Laser Sprite Dot
+·The Specialists Team
+// HUD
+·R4to0, D.N.I.O. 071
+// Flame Sprites
+·Half-Life: Base Defense -> http://www.moddb.com/mods/b-def
+___________________________________________________
+
+*SCRIPTS*
+___________________________________________________
+
+·Solokiller (Brass Ejection effect)
+
+·w00tguy (Water splash effect)
+
+·Nero (Clip casting effect)
+
+·Julcoool (Laser sprite effects)
+
+·Mr. Oats (Helping out with Lantern script)
+
+·anggara_nothing/Zorbos (weaponbox hook)
+___________________________________________________
+
+*SOUNDS*
+___________________________________________________
+
+·VitorHunter
+·D.N.I.O. 071 (edits)
+·R4to0 (edits)
+·New World Interactive (Sounds taken from Insurgency/Day of Infamy)
+·Valve
+·Resistance & Liberation Team
+·Crowbar Collective
+·spy
+·Monochrome Inc (ZPS Team)
+·No More Room in Hell Team
+·Firearms Source team
+·Project Reality team
+·Tripwire Interactive
+·Navaro -> Check out his awesome work here: http://www.steamcommunity.com/profiles/76561198016894339/myworkshopfiles/
+·KernCore for merging sounds for the AoMDC/M76 weapons
+___________________________________________________
+
+*TESTERS*
+·Solokiller
+·Cadaver
+·R4to0
+·D.N.I.O. 071
+·Nseijogar
+·KelvinGray
+·Der Graue Fuchs
+·Norman the Loli Pirate
+·Pootis
+·Megalodon
+·JIA
+·JonnyBoy0719
+·Maru
+·MrOats
+___________________________________________________
+
+//General
+
+·Team Psykskallar
+Cry of Fear
+
+·Sporkeh
+Original weapon compiles and animations
+
+·Sven Co-op development team
+Original Sven arms model and textures
+
+·Norman the Loli Pirate
+Improved Sven arms, Sven HEV arms rigged to Firearms Source skeleton
+
+·D.N.I.O. 071
+Firemodes sprite
+Sven arms rigging, texture editing to support color remap
+Weapon models conversion, texture edits, rigging, minor animation tweaks, bug fixing and compiles

@@ -1,0 +1,5 @@
+4
+crosshair		640 crosshairs	0	0	1	1
+weapon			640 cof/wpn_sel01	340	360	170	45
+weapon_s		640 cof/wpn_sel01	340	405	170	45
+ammo			640 cof/special/ammo_syringe	0	0	24	24
