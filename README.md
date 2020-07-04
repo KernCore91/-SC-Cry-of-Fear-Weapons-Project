@@ -60,8 +60,8 @@ Video:
 
 ## Screenshots
 [![](https://i.imgur.com/GecS1Iym.png)](https://i.imgur.com/GecS1Iy.png)
-[![](https://i.imgur.com/fogrWZEm.png)](https://i.imgur.com/fogrWZE.png)
-[![](https://i.imgur.com/Rwn01Vfm.png)](https://i.imgur.com/Rwn01Vf.png)
+[![](https://i.imgur.com/0rlBt4fm.png)](https://i.imgur.com/0rlBt4f.png)
+[![](https://i.imgur.com/wuOnw2tm.png)](https://i.imgur.com/wuOnw2t.png)
 [![](https://i.imgur.com/84E0GqLm.png)](https://i.imgur.com/84E0GqL.png)
 [![](https://i.imgur.com/yszXhUnm.png)](https://i.imgur.com/yszXhUn.png)
 [![](https://i.imgur.com/gYkANMzm.png)](https://i.imgur.com/gYkANMz.png)
