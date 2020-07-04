@@ -62,8 +62,8 @@ Video:
 
 1. Registering the weapons as plugins (Good for server operators, and most people):
 	1. Download the pack from one of the download links below
-	2. Extract it's contents inside Steam\steamapps\common\Sven Co-op\svencoop_addon\
-	3. Open up default_plugins.txt located in Steam\steamapps\common\Sven Co-op\svencoop\
+	2. Extract it's contents inside **`Steam\steamapps\common\Sven Co-op\svencoop_addon\`**
+	3. Open up *`default_plugins.txt`* located in **`Steam\steamapps\common\Sven Co-op\svencoop\`**
 	4. Add these lines to the file:
 	```
 	"plugin"
@@ -73,11 +73,52 @@ Video:
 	}
 	```
 	5. Load any map of your preference;
+
 2. Registering the weapons as map_scripts (Good for map makers):
 	1. Download the pack from one of the download links below
-	2. Extract it's contents inside Steam\steamapps\common\Sven Co-op\svencoop_addon\
-	3. Open up any map .cfg (i.e: svencoop1.cfg) and add this line to it:
+	2. Extract it's contents inside **`Steam\steamapps\common\Sven Co-op\svencoop_addon\`**
+	3. Open up any map .cfg (i.e: *`svencoop1.cfg`*) and add this line to it:
 	```
 	map_script cof/cofregister
 	```
 	4. Load up the map you chose;
+
+## Notes
+
+Due to some engine/balance limitations we were forced to change somethings:
+
+* All sounds are in .ogg format, which helps keeping their file size below 200kb while keeping the studio-like quality sounds of the weapons.
+
+* The Camera has a 5 second timer that resets frozen monsters. It DOES NOT WORK on certain types of monsters such as: Machines, Barnacle, Generic, Nihilant, Tentacle, Gargantua, Big Momma and Kingpin.
+
+* Holstering the Camera WILL reset frozen monsters.
+
+* These weapons DO NOT feature Auto-reload.
+
+* The Syringe CAN NOT revive players.
+
+* Certain weapons include a alternative firemode/firerate/feature. By pressing your Use key + your Reload key (*+use* along with *+reload*) you can change them, such as: M16, Famas, L85, Glock-18 and Glock-19.
+
+* It does not feature dual-wielding weapons.
+
+* Includes a .fgd and .res (made by R4to0) file.
+
+* Includes a debug map made by Cadaver (*`cryoffinal.bsp`*).
+
+
+CONTROLS:
+PRIMARY ATTACK KEY (+attack) -> Fire
+SECONDARY ATTACK KEY (+attack2) -> Aim
+TERTIARY ATTACK KEY (+alt1) -> Melee
+USE KEY + RELOAD KEY (+use;+reload) -> Use alternative mode (Only works on Glock-19/M16/Famas/Glock-18/L85)
+
+## Credits
+
+Cry of Fear is made by Team Psykskallar, check it out [here!](http://store.steampowered.com/app/223710/)
+You are authorized to use any assets from this pack as long as you give credit to the creators.
+If you're wondering if we have permission to port them, you can check it out [here](https://i.imgur.com/0oqlaro.png).
+As of now, anyone who wants to port Cry of Fear weapons are permitted AS LONG AS:
+* you give propper credits
+* you don't earn any money from them.
+Any other asset from Cry of Fear is strictly forbidden to be ported.
+
