@@ -114,10 +114,10 @@ Due to some engine/balance limitations we were forced to change somethings:
 
 
 CONTROLS:
-PRIMARY ATTACK KEY (+attack) -> Fire
-SECONDARY ATTACK KEY (+attack2) -> Aim
-TERTIARY ATTACK KEY (+alt1) -> Melee
-USE KEY + RELOAD KEY (+use;+reload) -> Use alternative mode (Only works on Glock-19/M16/Famas/Glock-18/L85)
+PRIMARY ATTACK KEY (+attack) -> Fire  
+SECONDARY ATTACK KEY (+attack2) -> Aim  
+TERTIARY ATTACK KEY (+alt1) -> Melee  
+USE KEY + RELOAD KEY (+use;+reload) -> Use alternative mode (Only works on Glock-19/M16/Famas/Glock-18/L85)  
 
 ## Credits
 
