@@ -223,3 +223,4 @@ Total Size Compressed: 22.3 MB
 (.7z) [Mega](https://mega.nz/#!es1gUaiK!rNxwKnc1Jsocbby7mBRKCSW4qUFPwN1NhsBC99Jk0R8)  
 (.7z) [HLDM-BR.NET](https://cdn.hldm-br.net/files/sc/cof/Sven-CoF_1-4.7z)  
 (.7z) [Boderman.net](http://www.boderman.net/svencoop/Sven-CoF_1-4.7z)  
+(.7z) [GitHub](https://github.com/KernCore91/-SC-Cry-of-Fear-Weapons-Project/releases/download/v1.4/Sven-CoF_1-4.7z)
