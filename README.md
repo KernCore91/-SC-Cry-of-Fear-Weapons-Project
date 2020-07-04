@@ -58,6 +58,14 @@ Video:
 [![](https://i.ytimg.com/vi/XtYBRp-wkjg/maxresdefault.jpg)](https://www.youtube.com/watch?v=XtYBRp-wkjg)
 *by AlphaLeader772.*
 
+## Screenshots
+[![](https://i.imgur.com/GecS1Iym.png)](https://i.imgur.com/GecS1Iy.png)
+[![](https://i.imgur.com/fogrWZEm.png)](https://i.imgur.com/fogrWZE.png)
+[![](https://i.imgur.com/Rwn01Vfm.png)](https://i.imgur.com/Rwn01Vf.png)
+[![](https://i.imgur.com/84E0GqLm.png)](https://i.imgur.com/84E0GqL.png)
+[![](https://i.imgur.com/yszXhUnm.png)](https://i.imgur.com/yszXhUn.png)
+[![](https://i.imgur.com/gYkANMzm.png)](https://i.imgur.com/gYkANMz.png)
+
 ## Installation Guide
 
 1. Registering the weapons as plugins (Good for server operators, and most people):
@@ -124,7 +132,7 @@ Any other asset from Cry of Fear is strictly forbidden to be ported.
 
 ## Updates
 
-Update 1.4:
+### Update 1.4:
 * Added Destructor to the v_action (avoiding Instance crashes, hopefully);
 * Added a Laser sprite to the Glock 19;
 * All firemodes buttons were changed to E + R instead of E + MOUSE2;
@@ -144,7 +152,7 @@ Update 1.4:
 * Slightly improved hammer animations;
 * Optimized World Models texture size and polygon count.
 
-Update 1.3:
+### Update 1.3:
 ***WORKAROUND: Due to the game not being able to play Schedules in the Holster() functions anymore, a temporary fix is to not let the players drop weapons
 That means you'll not be able to drop the: Syringe***
 * Added AoMDC weapons remastered into Cry of Fear format (Complete with melee animations):
@@ -191,11 +199,11 @@ That means you'll not be able to drop the: Syringe***
 * The Booklaser flames now display a smoke when going out;
 * Various size optimizations on the shells models.
 
-Update 1.2:
+### Update 1.2:
 * Added easy way to tweak damage values to the weapons;
 * Added easy way to change slots and positions of the weapons.
 
-Update 1.1:
+### Update 1.1:
 * Added "Out of it" custom weapon: AK-74;
 * Added new recoil method for G43, Revolver, Rifle and Shotgun;
 * Adjusted Famas aiming times;
@@ -204,7 +212,7 @@ Update 1.1:
 * Increased Lantern's Brightness;
 * Reduced Glock-19's underwater shoot distance by 1024 units.
 
-Update 1.0:
+### Update 1.0:
 * Fixed Syringe being able to heal friendly machinery;
 * Fixed svenoffear.bsp not loading the script.
 
