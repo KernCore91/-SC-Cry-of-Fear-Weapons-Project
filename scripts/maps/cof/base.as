@@ -410,9 +410,9 @@ mixin class weapon_base
 		pdot.pev.origin 	= g_Engine.v_forward * 8192;
 	}
 
-	float GetFireRate( float& in roundspmin )
+	double GetFireRate( double& in roundspmin )
 	{
-		float firerate;
+		double firerate;
 		roundspmin = (roundspmin / 60);
 		firerate = (1 / roundspmin);
 		return firerate;
@@ -488,7 +488,7 @@ mixin class weapon_base
 	void EffectsFOVON( int value )
 	{
 		ToggleZoom( value );
-		m_pPlayer.pev.maxspeed = 150;
+		m_pPlayer.SetMaxSpeedOverride( 150 ); //m_pPlayer.pev.maxspeed = 150;
 		m_pPlayer.SetVModelPos( Vector( 0, 0, 0 ) );
 		g_iMode_ironsights = CoF_MODE_AIMED;
 	}
@@ -496,7 +496,7 @@ mixin class weapon_base
 	void EffectsFOVOFF()
 	{
 		ToggleZoom( 0 );
-		m_pPlayer.pev.maxspeed = 0;
+		m_pPlayer.SetMaxSpeedOverride( -1 ); //m_pPlayer.pev.maxspeed = 0;
 		m_pPlayer.ResetVModelPos();
 		g_iMode_ironsights = CoF_MODE_NOTAIMED;
 	}

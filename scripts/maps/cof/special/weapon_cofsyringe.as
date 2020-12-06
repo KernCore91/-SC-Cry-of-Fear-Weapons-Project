@@ -181,7 +181,7 @@ class weapon_cofsyringe : ScriptBasePlayerWeaponEntity, weapon_base
 		m_pPlayer.pev.viewmodel = string_t();
 		canStartHeal = false;
 		max_health_give = CoFSYRINGE::SYRINGE_MAX_HEAL;
-		m_pPlayer.pev.maxspeed = 0;
+		m_pPlayer.SetMaxSpeedOverride( -1 ); //m_pPlayer.pev.maxspeed = 0;
 
 		//g_Game.AlertMessage( at_console, "Ammo Reserve Holster1: " + m_pPlayer.m_rgAmmo( self.m_iPrimaryAmmoType ) + "\n" );
 
@@ -243,7 +243,7 @@ class weapon_cofsyringe : ScriptBasePlayerWeaponEntity, weapon_base
 					{
 						SetThink( ThinkFunction( HealPlayer ) );
 						self.pev.nextthink = g_Engine.time + 1.55;
-						m_pPlayer.pev.maxspeed = -1;
+						m_pPlayer.SetMaxSpeedOverride( 0 ); //m_pPlayer.pev.maxspeed = -1;
 						self.SendWeaponAnim( CoFSYRINGE_STAB, 0, 0 );
 						self.m_flNextPrimaryAttack = self.m_flNextSecondaryAttack = self.m_flTimeWeaponIdle = WeaponTimeBase() + 2.63f;
 					}
@@ -302,7 +302,7 @@ class weapon_cofsyringe : ScriptBasePlayerWeaponEntity, weapon_base
 				eMonster.m_hEnemy = null;
 				for( uint i = 1; i <= 4; i++ )
 					eMonster.PopEnemy();
-				
+
 				eMonster.Forget( bits_MEMORY_PROVOKED | bits_MEMORY_SUSPICIOUS );
 				eMonster.ClearSchedule();
 			}
@@ -316,7 +316,7 @@ class weapon_cofsyringe : ScriptBasePlayerWeaponEntity, weapon_base
 		}
 
 		m_pPlayer.m_rgAmmo( self.m_iPrimaryAmmoType, m_pPlayer.m_rgAmmo( self.m_iPrimaryAmmoType ) - 1 );
-		m_pPlayer.pev.maxspeed = 0;
+		m_pPlayer.SetMaxSpeedOverride( -1 ); //m_pPlayer.pev.maxspeed = 0;
 	}
 
 	void DeployAgain()

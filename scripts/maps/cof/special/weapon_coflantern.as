@@ -99,7 +99,7 @@ class weapon_coflantern : ScriptBasePlayerWeaponEntity, weapon_base
 
 	void Materialize()
 	{
-		//g_Log.PrintF("\nLantern @owner Memory: %1\n", @this);
+		//g_Log.PrintF("\nLantern @owner Memory address: %1\n", @this);
 		//g_Log.PrintF("\nLantern @player Memory: %1\n", @self);
 
 		@SelfLightSchedule = @g_Scheduler.SetInterval( @this, "LightSelfThink", 0.099f, g_Scheduler.REPEAT_INFINITE_TIMES );

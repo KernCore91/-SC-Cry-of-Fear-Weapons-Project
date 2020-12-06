@@ -23,9 +23,9 @@ enum CoFGOLDENAnimations_e
 namespace CoFGOLDEN
 {
 	//models
-	string GOLDEN_W_MODEL      	= "models/cof/anaconda/wrd_g.mdl";
-	string GOLDEN_V_MODEL      	= "models/cof/anaconda/vwm_g.mdl";
-	string GOLDEN_P_MODEL      	= "models/cof/anaconda/plr_g.mdl";
+	string GOLDEN_W_MODEL       	= "models/cof/anaconda/wrd_g.mdl";
+	string GOLDEN_V_MODEL       	= "models/cof/anaconda/vwm_g.mdl";
+	string GOLDEN_P_MODEL       	= "models/cof/anaconda/plr_g.mdl";
 	//sounds
 	const string GOLDEN_SHOOT_SOUND  	= "cof/guns/anaconda/shoot.ogg";
 	const string GOLDEN_EMPTY_SOUND  	= "cof/guns/anaconda/empty.ogg";
