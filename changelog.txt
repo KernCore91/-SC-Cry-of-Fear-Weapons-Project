@@ -1,5 +1,5 @@
 Update 1.4.1:
--Fix pev.maxspeed not affecting player's speed
+-Fix player's speed not being affected when aiming and using the syringe on players.
 
 Update 1.4:
 -Added Destructor to the v_action (avoiding Instance crashes, hopefully);

@@ -131,6 +131,9 @@ Any other asset from Cry of Fear is strictly forbidden to be ported.
 
 ## Updates
 
+### Update 1.4.1:
+* Fix player's speed not being affected when aiming and using the syringe on players.
+
 ### Update 1.4:
 * Added Destructor to the v_action (avoiding Instance crashes, hopefully);
 * Added a Laser sprite to the Glock 19;
@@ -219,8 +222,8 @@ That means you'll not be able to drop the: Syringe***
 
 Total Size Compressed: 22.3 MB
 
-(.7z) [Dropbox](https://www.dropbox.com/s/dxiabho4rtxfktb/Sven-CoF_1-4.7z?dl=0)  
-(.7z) [Mega](https://mega.nz/#!es1gUaiK!rNxwKnc1Jsocbby7mBRKCSW4qUFPwN1NhsBC99Jk0R8)  
-(.7z) [HLDM-BR.NET](https://cdn.hldm-br.net/files/sc/cof/Sven-CoF_1-4.7z)  
-(.7z) [Boderman.net](http://www.boderman.net/svencoop/Sven-CoF_1-4.7z)  
-(.7z) [GitHub](https://github.com/KernCore91/-SC-Cry-of-Fear-Weapons-Project/releases/download/v1.4/Sven-CoF_1-4.7z)
+(.7z) [Dropbox](https://www.dropbox.com/s/ej2jr10d86y068e/sven-cof_1-4-1.7z?dl=0)  
+(.7z) [Mega](https://mega.nz/file/qt8zjaQB#DWvt6DBxQbyMi9Wb3mv7cjTQFhRlDp6R-yJS9x8tZiU)  
+(.7z) [HLDM-BR.NET](https://cdn.hldm-br.net/files/sc/cof/Sven-CoF_1-4-1.7z)  
+<!--(.7z) [Boderman.net](http://www.boderman.net/svencoop/Sven-CoF_1-4.7z)  
+(.7z) [GitHub](https://github.com/KernCore91/-SC-Cry-of-Fear-Weapons-Project/releases/download/v1.4/Sven-CoF_1-4.7z)-->
