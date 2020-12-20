@@ -1,3 +1,6 @@
+Update 1.4.1:
+-Fix pev.maxspeed not affecting player's speed
+
 Update 1.4:
 -Added Destructor to the v_action (avoiding Instance crashes, hopefully);
 -Added a Laser sprite to the Glock 19;
