@@ -51,7 +51,7 @@ Video:
 *by VitorHunter.*
 
 Video:
-[![](https://i.ytimg.com/vi/okgo3OdCpIU/maxresdefault.jpg)](https://www.youtube.com/watch?v=okgo3OdCpIU)
+[![](http://i3.ytimg.com/vi/gYJr6ZliHL0/maxresdefault.jpg)](https://www.youtube.com/watch?v=gYJr6ZliHL0)
 *by SV BOY.*
 
 Video:
