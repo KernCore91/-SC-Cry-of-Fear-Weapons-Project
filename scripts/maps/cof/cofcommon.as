@@ -211,8 +211,8 @@ HookReturnCode cof_PlayerPreThink( CBasePlayer@ pPlayer, uint& out uiFlags )
 {
 	if( pPlayer.m_hActiveItem.GetEntity() is null )
 	{
-		pPlayer.GiveNamedItem( "v_action" );
-		pPlayer.SelectItem( "v_action" );
+		pPlayer.GiveNamedItem( "weapon_cofaction" );
+		pPlayer.SelectItem( "weapon_cofaction" );
 	}
 	return HOOK_CONTINUE;
 }

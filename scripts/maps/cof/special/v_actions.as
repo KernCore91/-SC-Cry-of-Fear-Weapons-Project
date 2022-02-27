@@ -366,6 +366,6 @@ class v_action : ScriptBasePlayerWeaponEntity, weapon_base
 void RegisterCoFACTIONS()
 {
 	//g_Scheduler.ClearTimerList();
-	g_CustomEntityFuncs.RegisterCustomEntity( "v_action", "v_action" );
+	g_CustomEntityFuncs.RegisterCustomEntity( "v_action", "weapon_cofaction" );
 	g_ItemRegistry.RegisterWeapon( "v_action", "cof" );
 }
