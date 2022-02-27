@@ -1,3 +1,6 @@
+Update 1.4.2:
+-Possible fix for the v_actions script crashing the game on listen servers when a client joins.
+
 Update 1.4.1:
 -Fix player's speed not being affected when aiming and using the syringe on players.
 

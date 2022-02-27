@@ -131,6 +131,9 @@ Any other asset from Cry of Fear is strictly forbidden to be ported.
 
 ## Updates
 
+### Update 1.4.2:
+* Possible fix for the v_actions script crashing the game on listen servers when a client joins.
+
 ### Update 1.4.1:
 * Fix player's speed not being affected when aiming and using the syringe on players.
 
@@ -222,8 +225,8 @@ That means you'll not be able to drop the: Syringe***
 
 Total Size Compressed: 22.3 MB
 
-(.7z) [Dropbox](https://www.dropbox.com/s/ej2jr10d86y068e/sven-cof_1-4-1.7z?dl=0)  
-(.7z) [Mega](https://mega.nz/file/qt8zjaQB#DWvt6DBxQbyMi9Wb3mv7cjTQFhRlDp6R-yJS9x8tZiU)  
-(.7z) [HLDM-BR.NET](https://cdn.hldm-br.net/files/sc/cof/Sven-CoF_1-4-1.7z)  
-(.7z) [Boderman.net](http://boderman.net/svencoop/Sven-CoF_1-4-1.7z)  
+(.7z) [Dropbox](https://www.dropbox.com/s/ws454tgsfr6d0pu/Sven-CoF_1-4-2.7z?dl=0)  
+(.7z) [Mega](https://mega.nz/file/igkhhYLb#7z3NF6_I3gkwQRqpZZcZvpderPMPEeIepRwzexfG51Y)  
+(.7z) [HLDM-BR.NET](https://cdn.hldm-br.net/files/sc/cof/Sven-CoF_1-4-2.7z)  
+(.7z) [Boderman.net](http://boderman.net/svencoop/Sven-CoF_1-4-2.7z)  
 (.7z) [GitHub](https://github.com/KernCore91/-SC-Cry-of-Fear-Weapons-Project/releases/download/v1.4.1/Sven-CoF_1-4-1.7z)
