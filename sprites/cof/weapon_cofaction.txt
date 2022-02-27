@@ -1,2 +1,4 @@
-1
-crosshair		640 crosshairs	0	0	1	1
+3
+crosshair			640 	crosshairs	0	0	1	1
+weapon				640		640hud1		0	0	170	45
+weapon_s			640		640hud4		0	0	170	45
