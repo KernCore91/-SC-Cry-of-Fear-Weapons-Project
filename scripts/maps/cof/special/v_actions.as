@@ -52,7 +52,7 @@ class v_action : ScriptBasePlayerWeaponEntity, weapon_base
 	{
 		self.PrecacheCustomModels();
 		g_Game.PrecacheModel( ACTION::MODEL );
-		g_Game.PrecacheGeneric( "sprites/" + "cof/v_action.txt" );
+		g_Game.PrecacheGeneric( "sprites/" + "cof/weapon_cofaction.txt" );
 	}
 
 	bool GetItemInfo( ItemInfo& out info )
@@ -367,5 +367,5 @@ void RegisterCoFACTIONS()
 {
 	//g_Scheduler.ClearTimerList();
 	g_CustomEntityFuncs.RegisterCustomEntity( "v_action", "weapon_cofaction" );
-	g_ItemRegistry.RegisterWeapon( "v_action", "cof" );
+	g_ItemRegistry.RegisterWeapon( "weapon_cofaction", "cof" );
 }
