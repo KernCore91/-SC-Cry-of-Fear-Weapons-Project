@@ -5,6 +5,8 @@
 This project is brought to you by D.N.I.O. 071 and me (KernCore).  
 It's a port of Cry of Fear's arsenal.
 
+# **DO NOT RUN THIS PLUGIN ALONG WITH ANOTHER WEAPON PLUGIN, NO SUPPORT IS GUARANTEED BETWEEN THEM**
+
 ## The Weapons
 
 * Switchblade (**weapon_cofswitchblade**)
