@@ -7,6 +7,16 @@ It's a port of Cry of Fear's arsenal.
 
 # **DO NOT RUN THIS PLUGIN ALONG WITH ANOTHER WEAPON PLUGIN, NO SUPPORT IS GUARANTEED BETWEEN THEM**
 
+## Download Links
+
+Total Size Compressed: 22.3 MB
+
+(.7z) [Dropbox](https://www.dropbox.com/s/l8et5sqppn1gsws/Sven-CoF_1-4-2.7z?dl=0)  
+(.7z) [Mega](https://mega.nz/file/LhEHDC5D#IuohxQf6HY0U_cpGrS8csMJOIbFj12NMtIX1GIvpe2U)  
+(.7z) [HLDM-BR.NET](https://cdn.hldm-br.net/files/sc/cof/Sven-CoF_1-4-2.7z)  
+(.7z) [Boderman.net](http://boderman.net/svencoop/Sven-CoF_1-4-2.7z)  
+(.7z) [GitHub](https://github.com/KernCore91/-SC-Cry-of-Fear-Weapons-Project/releases/download/v1.4.2/Sven-CoF_1-4-2.7z)
+
 ## The Weapons
 
 * Switchblade (**weapon_cofswitchblade**)
@@ -222,13 +232,3 @@ That means you'll not be able to drop the: Syringe***
 ### Update 1.0:
 * Fixed Syringe being able to heal friendly machinery;
 * Fixed svenoffear.bsp not loading the script.
-
-## Download Links
-
-Total Size Compressed: 22.3 MB
-
-(.7z) [Dropbox](https://www.dropbox.com/s/l8et5sqppn1gsws/Sven-CoF_1-4-2.7z?dl=0)  
-(.7z) [Mega](https://mega.nz/file/LhEHDC5D#IuohxQf6HY0U_cpGrS8csMJOIbFj12NMtIX1GIvpe2U)  
-(.7z) [HLDM-BR.NET](https://cdn.hldm-br.net/files/sc/cof/Sven-CoF_1-4-2.7z)  
-(.7z) [Boderman.net](http://boderman.net/svencoop/Sven-CoF_1-4-2.7z)  
-(.7z) [GitHub](https://github.com/KernCore91/-SC-Cry-of-Fear-Weapons-Project/releases/download/v1.4.2/Sven-CoF_1-4-2.7z)
