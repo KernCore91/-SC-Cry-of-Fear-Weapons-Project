@@ -139,7 +139,7 @@ If you're wondering if we have permission to port them, you can check it out [he
 You are permitted to use the assets of this pack and only the weapon models from Cry of Fear AS LONG AS:
 * you give propper credits
 * you don't earn any money from them. Maps are still forbidden to be ported;
-* Convert the code to any other programming language.
+* Convert the code to any other programming/scripting language without permission.
 
 ## Updates
 
