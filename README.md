@@ -138,7 +138,8 @@ You are authorized to use any assets from this pack as long as you give credit t
 If you're wondering if we have permission to port them, you can check it out [here](https://i.imgur.com/0oqlaro.png).  
 You are permitted to use the assets of this pack and only the weapon models from Cry of Fear AS LONG AS:
 * you give propper credits
-* you don't earn any money from them. Maps are still forbidden to be ported.
+* you don't earn any money from them. Maps are still forbidden to be ported;
+* Convert the code to any other programming language.
 
 ## Updates
 
